@@ -35,7 +35,7 @@ export default function DealReviewSection() {
             </h2>
             <p style={{ fontSize: 16, color: color.textSecondary, lineHeight: 1.75 }}>
               Deal Review gives you one focused output before you need it: the highest-priority
-              risk, what's still unknown, and the exact next move \u2014 down to a drafted follow-up
+              risk, what's still unknown, and the exact next move — down to a drafted follow-up
               message. Not a summary of the last call. An answer to what to do next.
             </p>
           </div>

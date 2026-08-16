@@ -83,7 +83,7 @@ export default function DealReviewMockup() {
             </div>
             <p style={{ color: color.textSecondary, fontSize: 13.5, lineHeight: 1.65, marginBottom: 18 }}>
               Dana was highly responsive through discovery and demo. Nine days of silence after a
-              proposal, with no auto-reply or OOO signal, usually means internal pushback \u2014 not
+              proposal, with no auto-reply or OOO signal, usually means internal pushback — not
               disinterest. This is the moment to re-engage directly, not wait.
             </p>
             <div
@@ -107,7 +107,7 @@ export default function DealReviewMockup() {
             {[
               { label: 'Economic buyer never engaged', detail: 'VP of Infrastructure has not been in any conversation. No sign-off path exists without them.' },
               { label: 'Business impact not quantified', detail: 'You\u2019ve described features, not outcomes. What does this save Meridian in dollars or hours per year?' },
-              { label: 'Competing vendor unaddressed', detail: 'Unknown whether a competitor is in the running \u2014 this hasn\u2019t come up in three calls.' },
+              { label: 'Competing vendor unaddressed', detail: 'Unknown whether a competitor is in the running — this hasn\u2019t come up in three calls.' },
             ].map((item) => (
               <div
                 key={item.label}
@@ -140,7 +140,7 @@ export default function DealReviewMockup() {
               }}
             >
               <p style={{ color: color.textPrimary, fontSize: 13, lineHeight: 1.7, fontStyle: 'italic' }}>
-                "Dana \u2014 wanted to reconnect before another week passes. To build the right case
+                "Dana — wanted to reconnect before another week passes. To build the right case
                 for your leadership, could we set up 20 minutes with you and your VP of
                 Infrastructure? I want the business case to speak to what they care about."
               </p>
