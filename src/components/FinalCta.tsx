@@ -64,7 +64,7 @@ export default function FinalCta() {
             el.style.boxShadow = 'none'
           }}
         >
-          Start free
+          Get Early Access
         </a>
       </div>
     </section>

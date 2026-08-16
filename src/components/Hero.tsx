@@ -210,7 +210,7 @@ export default function Hero() {
                 el.style.boxShadow = 'none'
               }}
             >
-              Start free
+              Get Early Access
             </a>
             <a
               href="#how-it-works"

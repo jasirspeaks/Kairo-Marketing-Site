@@ -67,4 +67,4 @@ export const dealStatuses = [
   { key: 'lost', label: 'Lost', color: color.status.lost },
 ] as const
 
-export const APP_URL = 'https://kairoiq.vercel.app'
+export const APP_URL = 'https://kairoiq.vercel.app/signup'
