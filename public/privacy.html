@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Kairo</title>
+  <meta name="robots" content="index, follow" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+    :root {
+      --bg: #121018;
+      --surface: #1A1625;
+      --surface-secondary: #231D32;
+      --border: #322A45;
+      --text-primary: #F6F4FC;
+      --text-secondary: #B6ADC8;
+      --text-tertiary: rgba(182, 173, 200, 0.55);
+      --primary: #8B6CFF;
+      --glow: #CDB8FF;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text-secondary);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 64px 24px 96px;
+    }
+
+    a.logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      margin-bottom: 48px;
+    }
+
+    .logo-mark {
+      width: 26px;
+      height: 26px;
+      border-radius: 7px;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--glow) 100%);
+    }
+
+    .logo-text {
+      font-family: 'Fraunces', Georgia, serif;
+      color: var(--text-primary);
+      font-size: 17px;
+      font-weight: 600;
+    }
+
+    .eyebrow {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 500;
+      color: var(--text-primary);
+      font-size: 34px;
+      line-height: 1.2;
+      margin: 0 0 8px;
+    }
+
+    .updated {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+      color: var(--text-tertiary);
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 500;
+      color: var(--text-primary);
+      font-size: 20px;
+      margin: 40px 0 12px;
+    }
+
+    p { margin: 0 0 14px; }
+
+    ul { margin: 0 0 14px; padding-left: 20px; }
+    li { margin-bottom: 8px; }
+
+    strong { color: var(--text-primary); font-weight: 600; }
+
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { color: var(--glow); }
+
+    .callout {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+
+    .callout p:last-child { margin-bottom: 0; }
+
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 64px;
+      padding-top: 24px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      color: var(--text-tertiary);
+    }
+
+    footer a { color: var(--text-tertiary); }
+    footer a:hover { color: var(--text-secondary); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="logo" href="/">
+      <span class="logo-mark"></span>
+      <span class="logo-text">Kairo</span>
+    </a>
+
+    <div class="eyebrow">Legal</div>
+    <h1>Privacy Policy</h1>
+    <div class="updated">Last updated: August 23, 2026</div>
+
+    <p>Kairo ("Kairo," "we," "us," or "our") is currently operated by an individual, Jasir Ibrahim, as a sole proprietor. This policy explains what information Kairo collects, why, and how it's handled. Kairo is not yet operated through a registered company entity — if that changes, this policy will be updated to reflect it.</p>
+
+    <div class="callout">
+      <p>Kairo is a deal intelligence workspace. It helps sellers understand the current state of their deals using information they provide directly and, optionally, meeting data from services they connect (Google Calendar, Fireflies).</p>
+    </div>
+
+    <h2>1. Information We Collect</h2>
+    <p>We collect information in the following ways:</p>
+    <ul>
+      <li><strong>Account information</strong> — your name, email address, and role, provided when you sign up (directly or via Google Sign-In).</li>
+      <li><strong>Deal and call data you provide</strong> — deal names, company names, deal values, stages, and call transcripts or recordings you upload or connect for review.</li>
+      <li><strong>Meeting data from connected services</strong> — if you connect Google Calendar, we access calendar event data (read-only) to identify upcoming meetings you assign to deals. If you connect Fireflies, we receive call transcripts via webhook when your meetings are recorded and transcribed.</li>
+      <li><strong>Usage data</strong> — basic technical data such as IP address, browser type, and pages visited, collected automatically to keep the product working and secure.</li>
+    </ul>
+
+    <h2>2. How We Use Information</h2>
+    <p>We use the information we collect to:</p>
+    <ul>
+      <li>Generate deal and call reviews using AI (Google's Gemini models) based on the transcripts and deal context you provide.</li>
+      <li>Match calendar meetings to deals you've assigned, and automatically process transcripts when those meetings occur.</li>
+      <li>Maintain your account, authenticate you, and keep your data isolated from other users.</li>
+      <li>Operate, maintain, and improve Kairo.</li>
+    </ul>
+    <p>We do not sell your data. We do not use your deal or call content to train AI models beyond the processing needed to generate your reviews.</p>
+
+    <h2>3. Call Transcripts and Third-Party Data</h2>
+    <p>Call transcripts frequently contain information about people other than you — the people you're speaking with on sales calls. By using Kairo to process a transcript, you confirm you have the right to share that conversation's content for this purpose (for example, because you were a participant in the call). We process transcript content solely to generate deal and call intelligence for your account, and do not use it for any other purpose.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>Kairo relies on the following third-party services to operate:</p>
+    <ul>
+      <li><strong>Supabase</strong> — database, authentication, and backend infrastructure.</li>
+      <li><strong>Google (Gemini API)</strong> — AI processing of call transcripts to generate reviews.</li>
+      <li><strong>Google Calendar API</strong> — read-only calendar access, only if you explicitly connect it.</li>
+      <li><strong>Fireflies.ai</strong> — call recording and transcription, only if you explicitly connect it.</li>
+      <li><strong>Vercel</strong> — application hosting.</li>
+    </ul>
+    <p>Each of these providers processes data under their own privacy terms. We only share the minimum data necessary for each service to perform its function within Kairo.</p>
+
+    <h2>5. Data Retention</h2>
+    <p>We retain your account, deal, and call data for as long as your account is active. If you'd like your data deleted, contact us using the information below and we will delete it, except where retention is required by law.</p>
+
+    <h2>6. Data Security</h2>
+    <p>We take reasonable technical measures to protect your data, including encrypting sensitive credentials (such as connected third-party API keys) at rest and enforcing per-user data isolation at the database level. No system is perfectly secure, and we can't guarantee absolute security.</p>
+
+    <h2>7. Your Choices</h2>
+    <ul>
+      <li>You can disconnect Google Calendar or Fireflies integrations at any time from Settings.</li>
+      <li>You can request a copy of your data, or request that your account and associated data be deleted, by contacting us.</li>
+    </ul>
+
+    <h2>8. Children's Privacy</h2>
+    <p>Kairo is a business tool intended for adults using it in a professional sales capacity. It is not directed at children, and we do not knowingly collect information from anyone under 18.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this policy as Kairo evolves — for example, if we register a formal business entity, add new integrations, or change how data is processed. We'll update the "Last updated" date above when we do. Material changes will be communicated to active users.</p>
+
+    <h2>10. Contact</h2>
+    <p>For questions about this policy or your data, contact:<br>
+    <strong>Jasir Ibrahim</strong><br>
+    <a href="mailto:jasirwrites@gmail.com">jasirwrites@gmail.com</a></p>
+
+    <footer>
+      <a href="/">← Back to Kairo</a> &nbsp;·&nbsp; <a href="/terms.html">Terms of Service</a>
+    </footer>
+  </div>
+</body>
+</html>

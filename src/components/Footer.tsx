@@ -43,10 +43,14 @@ export default function Footer() {
             </div>
             <div>
               <div className="eyebrow" style={{ color: color.textTertiary, marginBottom: 14 }}>Company</div>
-              {['About', 'Privacy', 'Terms'].map((l) => (
-                <div key={l} style={{ marginBottom: 9 }}>
-                  <a href="#" style={{ color: color.textSecondary, fontSize: 13, textDecoration: 'none' }}>
-                    {l}
+              {[
+                { label: 'About', href: '#' },
+                { label: 'Privacy', href: '/privacy.html' },
+                { label: 'Terms', href: '/terms.html' },
+              ].map((l) => (
+                <div key={l.label} style={{ marginBottom: 9 }}>
+                  <a href={l.href} style={{ color: color.textSecondary, fontSize: 13, textDecoration: 'none' }}>
+                    {l.label}
                   </a>
                 </div>
               ))}
