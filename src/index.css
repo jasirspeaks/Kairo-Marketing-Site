@@ -42,11 +42,21 @@ button {
   .show-mobile { display: flex !important; }
 }
 
+.hero-section {
+  min-height: 100vh;
+  padding: 140px 24px 80px;
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
   gap: 56px;
   align-items: center;
+  width: 100%;
+}
+
+.hero-mockup-wrap {
+  min-width: 0;
 }
 
 .footer-columns {
@@ -72,6 +82,10 @@ button {
 }
 
 @media (max-width: 900px) {
+  .hero-section {
+    min-height: 0;
+    padding: 108px 20px 56px;
+  }
   .hero-grid {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -80,11 +94,20 @@ button {
   .hero-cta-row {
     justify-content: center;
   }
+  .hero-mockup-wrap {
+    order: 2;
+  }
 }
 
 @media (max-width: 480px) {
+  .hero-section {
+    padding: 96px 16px 48px;
+  }
   .hero-grid {
-    gap: 32px;
+    gap: 28px;
+  }
+  .hero-mockup-wrap > div {
+    max-width: 100% !important;
   }
 }
 

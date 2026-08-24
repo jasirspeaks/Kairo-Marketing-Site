@@ -103,12 +103,11 @@ export default function Hero() {
   return (
     <section
       id="top"
+      className="hero-section"
       style={{
         background: color.bg,
-        minHeight: '100vh',
         display: 'flex',
         alignItems: 'center',
-        padding: '140px 24px 80px',
         position: 'relative',
         overflow: 'hidden',
       }}
@@ -123,12 +122,8 @@ export default function Hero() {
       />
 
       <div
-        className="container"
+        className="container hero-grid"
         style={{
-          display: 'grid',
-          gridTemplateColumns: 'minmax(0, 1.05fr) minmax(0, 0.95fr)',
-          gap: 56,
-          alignItems: 'center',
           position: 'relative',
           zIndex: 1,
         }}
@@ -183,7 +178,7 @@ export default function Hero() {
             and what's about to cost you the deal — across every call, every stakeholder, every stage.
           </p>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: 20, flexWrap: 'wrap' }}>
+          <div className="hero-cta-row" style={{ display: 'flex', alignItems: 'center', gap: 20, flexWrap: 'wrap' }}>
             <a
               href={APP_URL}
               style={{
@@ -234,7 +229,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <div className="hero-mockup-wrap" style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
           <HeroDealMockup />
         </div>
       </div>
