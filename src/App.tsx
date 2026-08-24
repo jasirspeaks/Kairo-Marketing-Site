@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import CategorySection from './components/CategorySection'
 import PainSection from './components/PainSection'
 import CentralQuestion from './components/CentralQuestion'
+import DemoSection from './components/DemoSection'
 import ProductSection from './components/ProductSection'
 import DealReviewSection from './components/DealReviewSection'
 import HowItWorks from './components/HowItWorks'
@@ -19,6 +20,7 @@ export default function App() {
       <CategorySection />
       <PainSection />
       <CentralQuestion />
+      <DemoSection />
       <ProductSection />
       <DealReviewSection />
       <HowItWorks />
