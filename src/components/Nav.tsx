@@ -54,7 +54,7 @@ export default function Nav() {
         style={{ height: 68, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}
       >
         <a href="#top" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
-          <Logo size={40} />
+          <Logo size={36} />
           <span style={{ fontFamily: font.display, color: color.textPrimary, fontSize: 20, fontWeight: 600, letterSpacing: '-0.02em' }}>
             Kairo
           </span>
