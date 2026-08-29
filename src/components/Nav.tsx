@@ -9,23 +9,19 @@ const LINKS = [
 
 function Logo({ size = 32 }: { size?: number }) {
   return (
-    <div
+    <img
+      src="/logo-mark.png"
+      alt="Kairo"
+      width={size}
+      height={size}
       style={{
         width: size,
         height: size,
-        borderRadius: size * 0.28,
-        background: `linear-gradient(135deg, ${color.primary} 0%, ${color.glow} 100%)`,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
+        borderRadius: size * 0.22,
         flexShrink: 0,
+        objectFit: 'cover',
       }}
-    >
-      <svg width={size * 0.5} height={size * 0.5} viewBox="0 0 16 16" fill="none">
-        <circle cx="8" cy="8" r="2.6" fill={color.bg} />
-        <circle cx="8" cy="8" r="6.5" stroke={color.bg} strokeWidth="1.2" fill="none" strokeDasharray="2.5 2" />
-      </svg>
-    </div>
+    />
   )
 }
 

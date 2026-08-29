@@ -15,13 +15,12 @@ export default function Footer() {
         >
           <div style={{ maxWidth: 240 }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 12 }}>
-              <div
-                style={{
-                  width: 26,
-                  height: 26,
-                  borderRadius: 7,
-                  background: `linear-gradient(135deg, ${color.primary} 0%, ${color.glow} 100%)`,
-                }}
+              <img
+                src="/logo-mark.png"
+                alt="Kairo"
+                width={26}
+                height={26}
+                style={{ width: 26, height: 26, borderRadius: 6, objectFit: 'cover' }}
               />
               <span style={{ fontFamily: font.display, color: color.textPrimary, fontSize: 17, fontWeight: 600 }}>Kairo</span>
             </div>
