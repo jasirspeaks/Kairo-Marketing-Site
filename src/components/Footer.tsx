@@ -18,9 +18,9 @@ export default function Footer() {
               <img
                 src="/logo-mark.png"
                 alt="Kairo"
-                width={26}
-                height={26}
-                style={{ width: 26, height: 26, borderRadius: 6, objectFit: 'cover' }}
+                width={36}
+                height={36}
+                style={{ width: 36, height: 36, borderRadius: 8, objectFit: 'cover' }}
               />
               <span style={{ fontFamily: font.display, color: color.textPrimary, fontSize: 17, fontWeight: 600 }}>Kairo</span>
             </div>
