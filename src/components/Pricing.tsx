@@ -95,13 +95,13 @@ export default function Pricing() {
                 textDecoration: 'none',
               }}
             >
-              Reserve Your Spot
+              Start Your 14-Day Free Trial
             </a>
           </div>
         </div>
 
         <p style={{ textAlign: 'center', color: color.textTertiary, fontSize: 13, marginTop: 28 }}>
-          Early access pricing. Limited to the first cohort of users.
+          No credit card required. Cancel anytime.
         </p>
       </div>
     </section>

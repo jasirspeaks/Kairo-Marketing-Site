@@ -8,8 +8,8 @@ const STEPS = [
   },
   {
     number: '2',
-    headline: 'Log calls as they happen.',
-    body: 'Paste a transcript, upload a recording, or connect your calendar and Fireflies for automatic capture. Kairo reads the evidence and updates the deal\u2019s understanding.',
+    headline: 'Calls get captured automatically.',
+    body: 'Connect your calendar and Fireflies once, and Kairo captures and analyzes every call automatically. Prefer to do it yourself? You can still paste a transcript or upload a recording anytime.',
   },
   {
     number: '3',

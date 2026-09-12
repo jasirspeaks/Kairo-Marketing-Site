@@ -2,20 +2,20 @@ import { color, font } from '../styles/tokens'
 
 const SEGMENTS = [
   {
-    role: 'Full-cycle AE',
+    role: 'Account Executives',
     change: 'Walk into every call already knowing what\u2019s unresolved \u2014 no more digging through your own notes.',
   },
   {
-    role: 'Founder-seller',
+    role: 'Founder-sellers',
     change: 'Run your whole pipeline without a CRM you\u2019ll never fully set up. Kairo works from day one.',
   },
   {
-    role: 'Consultant',
+    role: 'Consultants',
     change: 'Keep every client engagement\u2019s risk state visible, even across long gaps between calls.',
   },
   {
-    role: 'Agency owner',
-    change: 'See risk patterns across your whole team\u2019s pipeline \u2014 not just what each rep chooses to report.',
+    role: 'Agency owners',
+    change: 'Keep every client account\u2019s risk state visible in one place, even when you\u2019re juggling a dozen deals at once.',
   },
 ]
 

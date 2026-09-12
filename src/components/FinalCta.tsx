@@ -64,7 +64,7 @@ export default function FinalCta() {
             el.style.boxShadow = 'none'
           }}
         >
-          Get Early Access
+          Start Your 14-Day Free Trial
         </a>
       </div>
     </section>

@@ -205,7 +205,7 @@ export default function Hero() {
                 el.style.boxShadow = 'none'
               }}
             >
-              Get Early Access
+              Start Your 14-Day Free Trial
             </a>
             <a
               href="#how-it-works"

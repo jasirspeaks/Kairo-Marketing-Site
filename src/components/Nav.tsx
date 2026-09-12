@@ -101,7 +101,7 @@ export default function Nav() {
               el.style.transform = 'translateY(0)'
             }}
           >
-            Get Early Access
+            Start Free Trial
           </a>
         </div>
 
@@ -162,7 +162,7 @@ export default function Nav() {
               textAlign: 'center',
             }}
           >
-            Get Early Access
+            Start Free Trial
           </a>
         </div>
       )}
