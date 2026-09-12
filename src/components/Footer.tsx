@@ -43,9 +43,9 @@ export default function Footer() {
             <div>
               <div className="eyebrow" style={{ color: color.textTertiary, marginBottom: 14 }}>Company</div>
               {[
-                { label: 'About', href: '#' },
-                { label: 'Privacy', href: '/privacy.html' },
-                { label: 'Terms', href: '/terms.html' },
+                { label: 'About', href: '/about' },
+                { label: 'Privacy', href: '/privacy' },
+                { label: 'Terms', href: '/terms' },
               ].map((l) => (
                 <div key={l.label} style={{ marginBottom: 9 }}>
                   <a href={l.href} style={{ color: color.textSecondary, fontSize: 13, textDecoration: 'none' }}>
