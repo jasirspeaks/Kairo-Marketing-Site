@@ -14,7 +14,7 @@ export default function CentralQuestion() {
         style={{
           position: 'absolute',
           inset: 0,
-          backgroundImage: `radial-gradient(circle at 55% 50%, rgba(139, 108, 255, 0.14) 0%, transparent 60%)`,
+          backgroundImage: `radial-gradient(circle at 55% 50%, rgba(112, 66, 197, 0.14) 0%, transparent 60%)`,
           pointerEvents: 'none',
         }}
       />

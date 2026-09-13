@@ -42,7 +42,7 @@ export default function DemoSection() {
             overflow: 'hidden',
             border: `1px solid ${color.border}`,
             background: color.surface,
-            boxShadow: '0 40px 100px -30px rgba(139, 108, 255, 0.25)',
+            boxShadow: '0 40px 100px -30px rgba(112, 66, 197, 0.25)',
           }}
         >
           <video
@@ -73,7 +73,7 @@ export default function DemoSection() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                background: 'rgba(18, 16, 24, 0.25)',
+                background: 'rgba(13, 7, 21, 0.25)',
                 border: 'none',
                 cursor: 'pointer',
               }}

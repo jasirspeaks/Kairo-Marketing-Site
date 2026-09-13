@@ -44,7 +44,7 @@ export default function Nav() {
         right: 0,
         zIndex: 100,
         transition: 'background 0.3s, border-color 0.3s, backdrop-filter 0.3s',
-        background: scrolled ? 'rgba(18, 16, 24, 0.85)' : 'transparent',
+        background: scrolled ? 'rgba(13, 7, 21, 0.85)' : 'transparent',
         backdropFilter: scrolled ? 'blur(14px)' : 'none',
         borderBottom: `1px solid ${scrolled ? color.border : 'transparent'}`,
       }}

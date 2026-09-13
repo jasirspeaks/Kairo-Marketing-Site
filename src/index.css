@@ -11,8 +11,8 @@ html {
 }
 
 body {
-  background: #121018;
-  color: #F6F4FC;
+  background: #0D0715;
+  color: #F7F2FC;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -29,8 +29,8 @@ button {
 }
 
 ::selection {
-  background: rgba(139, 108, 255, 0.3);
-  color: #F6F4FC;
+  background: rgba(112, 66, 197, 0.3);
+  color: #F7F2FC;
 }
 
 /* Responsive helpers used across sections */

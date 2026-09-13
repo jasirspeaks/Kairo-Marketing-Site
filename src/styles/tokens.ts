@@ -4,20 +4,20 @@
 
 export const color = {
   // Core surfaces
-  bg: '#121018',
-  surface: '#1A1625',
-  surfaceSecondary: '#231D32',
-  border: '#322A45',
+  bg: '#0D0715',
+  surface: '#160D21',
+  surfaceSecondary: '#211333',
+  border: '#302044',
 
   // Text
-  textPrimary: '#F6F4FC',
-  textSecondary: '#B6ADC8',
-  textTertiary: 'rgba(182, 173, 200, 0.55)',
+  textPrimary: '#F7F2FC',
+  textSecondary: '#B4A7C2',
+  textTertiary: 'rgba(180, 167, 194, 0.55)',
 
   // Brand
-  primary: '#8B6CFF',
-  primaryHover: '#9A7BFF',
-  glow: '#CDB8FF',
+  primary: '#7042C5',
+  primaryHover: '#8050D9',
+  glow: '#BFA3E8',
 
   // Deal Status palette (Blueprint, 9-value enum)
   status: {

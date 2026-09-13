@@ -14,7 +14,7 @@ export default function FinalCta() {
         style={{
           position: 'absolute',
           inset: 0,
-          backgroundImage: `radial-gradient(ellipse at 50% 0%, rgba(139, 108, 255, 0.24) 0%, transparent 60%)`,
+          backgroundImage: `radial-gradient(ellipse at 50% 0%, rgba(112, 66, 197, 0.24) 0%, transparent 60%)`,
           pointerEvents: 'none',
         }}
       />
@@ -55,7 +55,7 @@ export default function FinalCta() {
             const el = e.currentTarget as HTMLElement
             el.style.background = color.primaryHover
             el.style.transform = 'translateY(-2px)'
-            el.style.boxShadow = `0 12px 32px rgba(139, 108, 255, 0.4)`
+            el.style.boxShadow = `0 12px 32px rgba(112, 66, 197, 0.4)`
           }}
           onMouseLeave={(e) => {
             const el = e.currentTarget as HTMLElement

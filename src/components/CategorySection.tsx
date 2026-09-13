@@ -54,7 +54,7 @@ export default function CategorySection() {
                     ...cellStyle,
                     color: color.glow,
                     fontWeight: 600,
-                    background: 'rgba(139, 108, 255, 0.08)',
+                    background: 'rgba(112, 66, 197, 0.08)',
                   }}
                 >
                   Kairo
@@ -74,7 +74,7 @@ export default function CategorySection() {
                       ...cellStyle,
                       color: color.textPrimary,
                       fontSize: 13.5,
-                      background: 'rgba(139, 108, 255, 0.05)',
+                      background: 'rgba(112, 66, 197, 0.05)',
                       borderBottom: i === ROWS.length - 1 ? 'none' : undefined,
                     }}
                   >

@@ -132,7 +132,7 @@ export default function DealReviewMockup() {
             </div>
             <div
               style={{
-                background: 'rgba(139, 108, 255, 0.1)',
+                background: 'rgba(112, 66, 197, 0.1)',
                 border: `1px solid ${color.primary}40`,
                 borderRadius: 10,
                 padding: '16px',

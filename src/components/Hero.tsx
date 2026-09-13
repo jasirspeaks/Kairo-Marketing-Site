@@ -116,7 +116,7 @@ export default function Hero() {
         style={{
           position: 'absolute',
           inset: 0,
-          backgroundImage: `radial-gradient(circle at 20% 15%, rgba(139, 108, 255, 0.16) 0%, transparent 50%), radial-gradient(circle at 85% 75%, rgba(205, 184, 255, 0.06) 0%, transparent 45%)`,
+          backgroundImage: `radial-gradient(circle at 20% 15%, rgba(112, 66, 197, 0.16) 0%, transparent 50%), radial-gradient(circle at 85% 75%, rgba(191, 163, 232, 0.06) 0%, transparent 45%)`,
           pointerEvents: 'none',
         }}
       />
@@ -134,7 +134,7 @@ export default function Hero() {
               display: 'inline-flex',
               alignItems: 'center',
               gap: 8,
-              background: 'rgba(139, 108, 255, 0.14)',
+              background: 'rgba(112, 66, 197, 0.14)',
               border: `1px solid ${color.border}`,
               borderRadius: 100,
               padding: '6px 14px',
@@ -196,7 +196,7 @@ export default function Hero() {
                 const el = e.currentTarget as HTMLElement
                 el.style.background = color.primaryHover
                 el.style.transform = 'translateY(-2px)'
-                el.style.boxShadow = `0 10px 28px rgba(139, 108, 255, 0.35)`
+                el.style.boxShadow = `0 10px 28px rgba(112, 66, 197, 0.35)`
               }}
               onMouseLeave={(e) => {
                 const el = e.currentTarget as HTMLElement
