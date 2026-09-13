@@ -38,8 +38,8 @@ export const color = {
 
 export const font = {
   display: `'Fraunces', Georgia, serif`, // headline serif for premium/editorial feel
-  body: `'Inter', -apple-system, BlinkMacSystemFont, sans-serif`,
-  mono: `'IBM Plex Mono', 'SF Mono', monospace`, // eyebrows, data labels
+  body: `'Geist', -apple-system, BlinkMacSystemFont, sans-serif`,
+  mono: `'JetBrains Mono', 'SF Mono', monospace`, // eyebrows, data labels
 } as const
 
 export const dealStages = [
